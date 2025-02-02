@@ -7,7 +7,7 @@ import os
 javase_jar = "javase-3.5.0.jar"
 core_jar = "core-3.5.0.jar"
 jcommander_jar = "jcommander-1.82.jar"
-barcode_image = "C:/Users/user/Downloads/Compressed/OpenCV-Masterclass-main/OpenCV-Masterclass-main/Decoding/IMG_1903.jpg"
+barcode_image = "/home/sammy/Downloads/OpenCV-Updated-main/Decoding/IMG_1903.jpg"
 image_path= "file:///"+barcode_image.replace("//","/")
 # Validate required files
 for file in [javase_jar, core_jar, jcommander_jar, barcode_image]:
